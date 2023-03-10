@@ -1,0 +1,22 @@
+
+
+.ancher{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+    padding-top: 10px;
+}
+legend{
+    font-size: 30px;
+    text-align: center;
+}
+
+.butt{
+    text-align: center;
+    padding-top: 10px;
+}
