@@ -16,10 +16,10 @@
                   <legend>Log-In</legend>
 
                   <div class="form-outline">
-                    <label class="form-label"> email</label>
+                    <label class="form-label"> Email</label>
                     <input type="email" class="form-control" formControlName="email" name="email" />
                     <div *ngIf="!loginForm.controls['email'].valid && loginForm.controls['email'].touched">
-                      <span style="color: rgb(189, 80, 80);"> enter your email</span>
+                      <span style="color: rgb(189, 80, 80);"> enter your email*</span>
                   </div>
 
                   </div>
@@ -28,12 +28,12 @@
                     <label class="form-label">Password</label>
                     <input type="password" class="form-control" formControlName="pwd" name="pwd" />
                     <div *ngIf="!loginForm.controls['pwd'].valid && loginForm.controls['pwd'].touched">
-                      <span style="color: rgb(182, 42, 42);">enter your passworf</span>
+                      <span style="color: rgb(182, 42, 42);">enter your password*</span>
                     </div>
                   </div>
 
                   <div class="ancher">
-                    <a [routerLink]="['/forget-pass']">forget password</a>
+                    <a [routerLink]="['/forget-pass']">Forget Password</a>
 
                     <a [routerLink]="['/register']"> Sing-Up</a>
                   </div>

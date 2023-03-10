@@ -13,7 +13,10 @@ export class RegisterComponent {
  
     cityId: new FormControl(),
     countryId :new FormControl() ,
-    dob : new FormControl(),
+    dob : new FormControl(
+      '',{validators:Validators.required,updateOn:'blur'}
+
+    ),
     email :new FormControl(
       '',{validators:Validators.required,updateOn:'blur'}
 

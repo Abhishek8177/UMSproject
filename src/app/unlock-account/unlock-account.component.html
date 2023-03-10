@@ -15,7 +15,7 @@
                                         <label class="form-label" >Email</label>
                                         <input type="email"  class="form-control " formControlName="email" name="email" />
                                         <div *ngIf="!unlockAccForm.controls['email'].valid && unlockAccForm.controls['email'].touched">
-                                            <span style="color: rgb(189, 80, 80);"> enter your email</span>
+                                            <span style="color: rgb(189, 80, 80);"> enter your email*</span>
                                         </div>
         
                                        
@@ -25,7 +25,7 @@
                                         <label class="form-label">Temporary Password</label>
                                         <input type="password" class="form-control " formControlName="tempPwd" name="tempPwd" />
                                         <div *ngIf="!unlockAccForm.controls['tempPwd'].valid && unlockAccForm.controls['tempPwd'].touched">
-                                            <span style="color: rgb(189, 80, 80);"> enter your Temporary password</span>
+                                            <span style="color: rgb(189, 80, 80);"> enter your Temporary password*</span>
                                         </div>
 
                                        
@@ -35,7 +35,7 @@
                                         <label class="form-label">New password</label>
                                         <input type="password"  class="form-control " formControlName="newPwd" name="newPwd" />
                                         <div *ngIf="!unlockAccForm.controls['newPwd'].valid && unlockAccForm.controls['newPwd'].touched">
-                                            <span style="color: rgb(189, 80, 80);"> enter your new password</span>
+                                            <span style="color: rgb(189, 80, 80);"> enter your new password*</span>
                                         </div>
 
                                        
@@ -45,7 +45,7 @@
                                         <label class="form-label" >Confirm New password</label>
                                         <input type="password" class="form-control "formControlName="confirmPwd" name="confirmPwd" />
                                         <div *ngIf="!unlockAccForm.controls['confirmPwd'].valid && unlockAccForm.controls['confirmPwd'].touched">
-                                            <span style="color: rgb(189, 80, 80);"> enter your confirm password</span>
+                                            <span style="color: rgb(189, 80, 80);"> enter your confirm password*</span>
                                         </div>
 
                                    
