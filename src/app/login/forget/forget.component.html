@@ -10,7 +10,7 @@
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" >Email address</label>
-                                <input type="email" (blur)="forgetpass($any($event.target).value)" class="form-control" name="emailId" formControlName="emailId" />
+                                <input type="email" (blur)="forgetpass($any($event.target).value)" class="form-control" placeholder="enter your email" name="emailId" formControlName="emailId" />
                                 <div *ngIf="!forgetform.controls['emailId'].valid && forgetform.controls['emailId'].touched">
                                     <span style="color: rgb(189, 80, 80);"> enter your email*</span>
                                 </div>
