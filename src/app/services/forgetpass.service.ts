@@ -8,8 +8,8 @@ export class ForgetpassService {
 
   constructor(private abhi:HttpClient) { }
 
-  forgetemail(id:number)
+  forgetemail(emailId:number)
   {
-    return this.abhi.get(`http://15.206.171.20:9090/forgotPwd/${id}`,{responseType:'text'})
+    return this.abhi.get(`http://15.206.171.20:9090/forgotPwd/${emailId}`,{responseType:'text'})
   }
 }

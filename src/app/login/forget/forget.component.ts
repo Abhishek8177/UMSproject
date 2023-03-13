@@ -21,11 +21,11 @@ export class ForgetComponent {
 
   emailany:any
 
+                                             
 
-
-  forgetpass(id:number)
+  forgetpass(emailId:number)
   {
-    this.forget.forgetemail(id).subscribe((res)=>alert(res))
+    this.forget.forgetemail(emailId).subscribe((res)=>alert(res))
   }
 
 }
